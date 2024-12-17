@@ -1,52 +1,60 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import Bayam from '../../assets/VertiGuide/Langkah/Panen Bayam.jpg'
+import Caisim from '../../assets/VertiGuide/edukasi/caisim.jpg'
+import Bawang from '../../assets/VertiGuide/edukasi/daun-bawang.jpeg'
+import Kangkung from '../../assets/VertiGuide/edukasi/kangkung.jpg'
+import Kucai from '../../assets/VertiGuide/edukasi/kucai.jpg'
+import Pakcoy from '../../assets/VertiGuide/edukasi/pakcoy.jpg'
+import Seledri from '../../assets/VertiGuide/edukasi/seledri.jpg'
+import Selada from '../../assets/VertiGuide/edukasi/selada.jpg'
 
 const Gallery = () => {
   const plants = [
     {
-      image: "https://th.bing.com/th/id/R.81e4e862bb3df7799070844fe45e51e9?rik=02C8M7ixDCKAUQ&riu=http%3a%2f%2fthefarmatgreenvillage.com%2fwp-content%2fuploads%2f2018%2f05%2fheirloom-tomatoes.jpg&ehk=SGak%2fwbVDKqHBHUoAIln%2bvIipcboqNQNX%2bRxGeoq9SE%3d&risl=&pid=ImgRaw&r=0",
+      image: Bayam,
       name: "Bayam",
       description: "Modul belajar yang komprehensif tentang teknik vertikultur",
       link: "/bayam",
     },
     {
-      image: "https://png.pngtree.com/background/20230426/original/pngtree-purple-eggplants-are-growing-in-a-field-picture-image_2485855.jpg",
+      image: Caisim,
       name: "Caisim",
       description: "Modul belajar yang komprehensif tentang teknik vertikultur",
       link: "/caisim",
     },
     {
-      image: "https://asset.kompas.com/crops/0IdFfzSyf0w9DxTIauNwpCi8w9Q=/0x83:1000x583/750x500/data/photo/2019/08/06/5d492f045d831.jpg",
+      image: Bawang,
       name: "Daun Bawang",
       description: "Modul belajar yang komprehensif tentang teknik vertikultur",
       link: "/bawang",
     },
     {
-      image: "https://djawanews.com/wp-content/uploads/2020/01/Hasil-panen-timun-www.romadecade.org_.jpg",
+      image: Kangkung,
       name: "Kangkung Darat",
       description: "Modul belajar yang komprehensif tentang teknik vertikultur",
       link: "/kangkung",
     },
     {
-      image: "https://satoeasa.com/wp-content/uploads/2022/05/Pasted-12.png",
+      image: Pakcoy,
       name: "Pakcoy",
       description: "Modul belajar yang komprehensif tentang teknik vertikultur",
       link: "/pakcoy",
     },
     {
-      image: "https://ds393qgzrxwzn.cloudfront.net/cat1/img/images/0/lr3XpPtYqI.jpg",
+      image: Kucai,
       name: "Kucai",
       description: "Modul belajar yang komprehensif tentang teknik vertikultur",
       link: "/kucai",
     },
     {
-      image: "https://img.herstory.co.id/articles/archive_20220107/sayur-buncis-20220107-124552.jpg",
+      image: Selada,
       name: "Selada",
       description: "Modul belajar yang komprehensif tentang teknik vertikultur",
       link: "/selada",
     },
     {
-      image: "https://assets-a1.kompasiana.com/items/album/2018/02/28/kebuners-com-5a96ccf8ab12ae5540685fd3.jpg?t=o&v=1200",
+      image: Seledri,
       name: "Seledri",
       description: "Modul belajar yang komprehensif tentang teknik vertikultur",
       link: "/seledri",

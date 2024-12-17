@@ -3,9 +3,9 @@ import PropTypes from "prop-types";
 
 export default function ChatbotMessages({ messages, loading }) {
   return (
-    <div className="p-4 flex-1 overflow-y-auto mt-28 mx-20">
+    <div className="p-4 flex-1 mt-28 mx-20">
       {/* Margin kiri dan kanan yang konsisten */}
-      <div className="max-h-[500px]">
+      <div className="max-h-[500px] overflow-y-auto">
         {/* Daftar pesan */}
         <ul className="space-y-2 flex flex-col">
           {messages.map((message, index) => (

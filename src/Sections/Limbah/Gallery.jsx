@@ -1,52 +1,61 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import Biochar from '../../assets/EcoLimbah/limbah/biochar.jpg'
+import Bokashi from '../../assets/EcoLimbah/limbah/bokasih.jpg'
+import Kompos from '../../assets/EcoLimbah/limbah/kompos.jpeg'
+import KomposDaun from '../../assets/EcoLimbah/limbah/kompos-daun.jpeg'
+import PakanTernak from '../../assets/EcoLimbah/limbah/pakan-ternak.jpg'
+import PupukCair from '../../assets/EcoLimbah/limbah/pupuk-cair.jpg'
+import PupukHijau from '../../assets/EcoLimbah/limbah/Pupuk-Hijau.jpg'
+import UpcyclingWadah from '../../assets/EcoLimbah/limbah/upcycling-wadah.jpeg'
+
 
 const Gallery = () => {
   const wastes = [
     {
-      image: "https://cdn-2.tstatic.net/batam/foto/bank/images/Membuat-pupuk-kompos.jpg",
+      image: Kompos,
       name: "Pupuk Kompos",
       description: "Panduan mendaur ulang limbah plastik menjadi berguna.",
       link: "/pupuk-kompos",
     },
     {
-      image: "https://asset.kompas.com/crops/yDXIhlCXmF-_uzYrU3nYWXtYn8U=/43x126:1243x926/750x500/data/photo/2022/02/25/62186eb1c7fc4.jpg",
+      image: Bokashi,
       name: "Fermentasi Bokashi",
       description: "Cara membuat pupuk kompos dari limbah organik.",
       link: "/fermentasi-bokashi",
     },
     {
-      image: "https://www.wastemanaged.co.uk/wp-content/uploads/2023/06/Plastic-Recycling.jpg",
+      image: UpcyclingWadah,
       name: "Upcycling Wadah",
       description: "Tips mendaur ulang kertas untuk keperluan sehari-hari.",
       link: "/upcycling-wadah",
     },
     {
-      image: "https://www.visaoms.com.br/wp-content/uploads/2023/03/1-713x375.jpg",
+      image: PakanTernak,
       name: "Pakan Ternak",
       description: "Mengelola limbah elektronik secara aman.",
       link: "/pakan-ternak",
     },
     {
-      image: "https://bibitbunga.com/wp-content/uploads/2017/03/tahap-membuat-pupuk-organik-cair.jpg",
+      image: PupukCair,
       name: "Pupuk Cair",
       description: "Panduan mendaur ulang limbah kaca dengan benar.",
       link: "/pupuk-cair",
     },
     {
-      image: "https://wahananews.co/photo/berita/dir022023/mudah-dan-murah-begini-cara-membuat-kompos-daun-kering_QDXjW470A4.jpeg",
+      image: KomposDaun,
       name: "Kompos Daun",
       description: "Mengolah daun kering menjadi kompos yang bermanfaat.",
       link: "/kompos-daun",
     },
     {
-      image: "https://agroadvance.com.br/wp-content/uploads/2023/04/pacific-biochar-140.jpg",
+      image: Biochar,
       name: "Biochar Organik",
       description: "Memanfaatkan sisa batang tanaman untuk membuat arang aktif.",
       link: "/biochar-organik",
     },
     {
-      image: "https://paktanidigital.com/artikel/wp-content/uploads/2019/06/Pupuk-Hijau.jpg",
+      image: PupukHijau,
       name: "Pupuk Hijau",
       description: "Mengolah limbah tanaman menjadi pupuk hijau untuk pertanian.",
       link: "/pupuk-hijau",
