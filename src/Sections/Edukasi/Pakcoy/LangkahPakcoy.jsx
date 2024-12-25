@@ -1,135 +1,160 @@
 import React from 'react'
+import Pipa from '../../../assets/VertiGuide/AlatBahan/Pipa PVC.jpg'
+import Tanah from '../../../assets/VertiGuide/AlatBahan/Tanah Gembur.jpg'
+import BenihKucai from '../../../assets/VertiGuide/AlatBahan/Kucai.jpg'
+import Air from '../../../assets/VertiGuide/AlatBahan/Air.jpg'
+import SekopKecil from '../../../assets/VertiGuide/AlatBahan/Sekop Kecil.jpg'
+import PupukKompos from '../../../assets/VertiGuide/AlatBahan/Pupuk Kompos.jpg'
+import Sprayer from '../../../assets/VertiGuide/AlatBahan/Sprayer.jpg'
+import Furadan from '../../../assets/VertiGuide/AlatBahan/Furadan.jpg'
 
-export default function TanamPakcoy() {
+export default function LangkahPakcoy() {
   return (
-    <section className='container flex flex-col gap-10 items-center py-16'>
+    <section className='container flex flex-col gap-10 items-center py-10'>
         <h3 className='text-3xl font-semibold'>
-            Langkah Penanaman Pakcoy
+            Alat dan Bahan
         </h3>
 
         {/* konten */}
         <div className='flex flex-col gap-10 items-center'>
-            {/* wadah */}
-            <h3 className='text-2xl font-semibold'>
-                Pembuatan Wadah
-            </h3>
 
+            {/* baris 1 */}
             <div className='flex gap-10'>
                 {/* card 1 */}
                 <div className='relative rounded-lg overflow-hidden bg-white text-white'>
                     <img 
-                    src="https://picsum.photos/200/200" 
-                    alt="pemasangan pipa vertikal"
-                    className='w-96 h-60 object-cover' />
+                    src={Pipa} 
+                    alt="Pipa PVC yang telah diberi lubang"
+                    className='w-60 h-60 object-cover' />
 
                     {/* teks media tanam */}
                     <div className='flex flex-col absolute bottom-0 left-0 right-0 h-60 justify-center items-center text-center bg-black bg-opacity-50 p-5'>
                         <h3 className='text-xl font-semibold'>
-                            Pemasangan Pipa Vertikal
+                        Pipa PVC yang telah diberi lubang
                         </h3>
-                        <p className=''>
-                            Tegakkan pipa di area dengan sinar matahari yang cukup.
-                        </p>
+                        
                     </div>
                 </div>
 
                 {/* card 2 */}
                 <div className='relative rounded-lg overflow-hidden bg-white text-white'>
                     <img 
-                    src="https://picsum.photos/200/200" 
-                    alt="pengisian media tanam"
-                    className='w-96 h-60 object-cover' />
+                    src={Tanah} 
+                    alt="Tanah"
+                    className='w-60 h-60 object-cover' />
 
                     {/* teks media tanam */}
                     <div className='flex flex-col absolute bottom-0 left-0 right-0 h-60 justify-center items-center text-center bg-black bg-opacity-50 p-5'>
                         <h3 className='text-xl font-semibold'>
-                            Pengisian Media Tanam
+                            Tanah
                         </h3>
-                        <p className=''>
-                            Tambahkan media tanam yang telah disediakan secara merata.
-                        </p>
+                        
                     </div>
                 </div>
 
                 {/* card 3 */}
                 <div className='relative rounded-lg overflow-hidden bg-white text-white'>
                     <img 
-                    src="https://picsum.photos/200/200" 
-                    alt="penyiraman"
-                    className='w-96 h-60 object-cover' />
+                    src={PupukKompos} 
+                    alt="Pupuk Kompos"
+                    className='w-60 h-60 object-cover' />
 
                     {/* teks media tanam */}
                     <div className='flex flex-col absolute bottom-0 left-0 right-0 h-60 justify-center items-center text-center bg-black bg-opacity-50 p-5'>
                         <h3 className='text-xl font-semibold'>
-                            Penyiraman
+                            Pupuk Kompos
                         </h3>
-                        <p className=''>
-                            Pasang sistem drip atau hidroponik diatas pipa.
-                        </p>
+                        
                     </div>
                 </div>
             </div>
 
-            {/* penanaman */}
-            <h3 className='text-2xl font-semibold'>
-                Penanaman dan Perawatan
-            </h3>
+            {/* baris 2 */}
             <div className='flex gap-10'>
                 {/* card 1 */}
                 <div className='relative rounded-lg overflow-hidden bg-white text-white'>
                     <img 
-                    src="https://picsum.photos/200/200" 
-                    alt="penanaman bibit"
-                    className='w-96 h-60 object-cover' />
+                    src={Furadan} 
+                    alt="Furadan"
+                    className='w-60 h-60 object-cover' />
 
                     {/* teks media tanam */}
                     <div className='flex flex-col absolute bottom-0 left-0 right-0 h-60 justify-center items-center text-center bg-black bg-opacity-50 p-5'>
                         <h3 className='text-xl font-semibold'>
-                            Penanaman BIbit
+                            Furadan
                         </h3>
-                        <p className=''>
-                            Tanam bibit pada lubang di pipa PVC.
-                        </p>
+                        
                     </div>
                 </div>
 
                 {/* card 2 */}
                 <div className='relative rounded-lg overflow-hidden bg-white text-white'>
                     <img 
-                    src="https://picsum.photos/200/200" 
-                    alt="penyiraman"
-                    className='w-96 h-60 object-cover' />
+                    src={BenihKucai} 
+                    alt="Benih Kucai"
+                    className='w-60 h-60 object-cover' />
 
                     {/* teks media tanam */}
                     <div className='flex flex-col absolute bottom-0 left-0 right-0 h-60 justify-center items-center text-center bg-black bg-opacity-50 p-5'>
                         <h3 className='text-xl font-semibold'>
-                            Penyiraman
+                            Benih Kucai
                         </h3>
-                        <p className=''>
-                            Siram tanaman secara rutin tiap pagi dan sore untuk menjaga kelembapan tanaman.
-                        </p>
+                        
                     </div>
                 </div>
 
                 {/* card 3 */}
                 <div className='relative rounded-lg overflow-hidden bg-white text-white'>
                     <img 
-                    src="https://picsum.photos/200/200" 
-                    alt="pemupukan" 
-                    className='w-96 h-60 object-cover' />
+                    src={Sprayer} 
+                    alt="Sprayer" 
+                    className='w-60 h-60 object-cover' />
 
                     {/* Teks */}
                     <div className='flex flex-col absolute bottom-0 left-0 right-0 h-60 justify-center items-center text-center bg-black bg-opacity-50 p-5'>
                         <h3 className='text-xl font-semibold'>
-                            Pemupukan
+                            Sprayer
                         </h3>
-                        <p className=''>
-                            Pupuk tanaman setiap 2 minggu sekali untuk menjaga nutrisi tanaman.
-                        </p>
+                        
                     </div>
                 </div>
             </div>
             
+            {/* baris 3 */}
+            <div className='flex gap-10'>
+                {/* card 1 */}
+                <div className='relative rounded-lg overflow-hidden bg-white text-white'>
+                    <img 
+                    src={Air} 
+                    alt="Air"
+                    className='w-60 h-60 object-cover' />
+
+                    {/* teks media tanam */}
+                    <div className='flex flex-col absolute bottom-0 left-0 right-0 h-60 justify-center items-center text-center bg-black bg-opacity-50 p-5'>
+                        <h3 className='text-xl font-semibold'>
+                            Air
+                        </h3>
+                        
+                    </div>
+                </div>
+
+                {/* card 2 */}
+                <div className='relative rounded-lg overflow-hidden bg-white text-white'>
+                    <img 
+                    src={SekopKecil} 
+                    alt="Sekop Kecil"
+                    className='w-60 h-60 object-cover' />
+
+                    {/* teks media tanam */}
+                    <div className='flex flex-col absolute bottom-0 left-0 right-0 h-60 justify-center items-center text-center bg-black bg-opacity-50 p-5'>
+                        <h3 className='text-xl font-semibold'>
+                            Sekop Kecil
+                        </h3>
+                        
+                    </div>
+                </div>
+            </div>
+
         </div>
         
     </section>
